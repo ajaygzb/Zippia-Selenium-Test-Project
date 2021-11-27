@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Salary Page" timestamp="2021-11-27T23:00:05" time="81.782" tests="6" failures="6" errors="6" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Salary Page"/>
+      <property name="capabilities" value="chrome.96_0_4664_45.windows"/>
+      <property name="file" value=".\test\specs\salaryPage.test.js"/>
+    </properties>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Getting Salary Page Title" time="12.045">
+      <failure/>
+      <error message="expected 'Average Project Manager Salary 2021: Hourly and Annual Salaries' to equal 'Average Project Manager Salary 2021: by State &amp; Field - Zippia'      &#xA;      actual expected&#xA;      &#xA;      'Average Project Manager Salary 2021: Hourlyby andState Annual&amp; SalariesField - Zippia'&#xA;      "/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/title - {}
+RESULT: {}
+RESULT: {}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+AssertionError: expected 'Average Project Manager Salary 2021: Hourly and Annual Salaries' to equal 'Average Project Manager Salary 2021: by State & Field - Zippia'
+    at SalaryPage.getSalaryPageTitle (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:35:36)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:16:9)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Moving to Average Project Manager Salary Component" time="16.568">
+      <failure/>
+      <error message="element (&quot;.salary-designer-body.no-salary-call-out&quot;) still not existing after 5000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/element - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element (".salary-designer-body.no-salary-call-out") still not existing after 5000ms
+    at D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async SalaryPage.moveToAvgProjectManagerSalary (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:42:13)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:23:9)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Verifying Average Project Manager Salary component displayed fields" time="12.508">
+      <failure/>
+      <error message="element (&quot;.salary-designer-body.no-salary-call-out&quot;) still not existing after 5000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/element - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element (".salary-designer-body.no-salary-call-out") still not existing after 5000ms
+    at D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async SalaryPage.moveToAvgProjectManagerSalary (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:42:13)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:29:9)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Verifying Location filter for Average Project Manager Salary component" time="13.451">
+      <failure/>
+      <error message="element (&quot;.salary-designer-body.no-salary-call-out&quot;) still not existing after 5000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/element - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element (".salary-designer-body.no-salary-call-out") still not existing after 5000ms
+    at D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async SalaryPage.moveToAvgProjectManagerSalary (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:42:13)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:36:9)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Verifying Industry filter for Average Project Manager Salary component" time="13.556">
+      <failure/>
+      <error message="element (&quot;.salary-designer-body.no-salary-call-out&quot;) still not existing after 5000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/element - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element (".salary-designer-body.no-salary-call-out") still not existing after 5000ms
+    at D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async SalaryPage.moveToAvgProjectManagerSalary (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:42:13)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:43:9)
+]]></system-err>
+    </testcase>
+    <testcase classname="chrome.96_0_4664_45.windows.Salary_Page" name="Verifying Education filter for Average Project Manager Salary component" time="13.635">
+      <failure/>
+      <error message="element (&quot;.salary-designer-body.no-salary-call-out&quot;) still not existing after 5000ms"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/url - {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+RESULT: {"url":"https://www.zippia.com/project-manager-jobs/salary/"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/url - {}
+RESULT: {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/window/maximize - {}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/element - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: POST /session/7eb0bdce04cf71cb0d59362de7392575/elements - {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+RESULT: {"using":"css selector","value":".salary-designer-body.no-salary-call-out"}
+COMMAND: GET /session/7eb0bdce04cf71cb0d59362de7392575/screenshot - {}
+RESULT: {}
+COMMAND: DELETE /session/7eb0bdce04cf71cb0d59362de7392575 - {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: element (".salary-designer-body.no-salary-call-out") still not existing after 5000ms
+    at D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async Element.elementErrorHandlerCallbackFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\webdriverio\build\middlewares.js:24:32)
+    at async Element.wrapCommandFn (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\node_modules\@wdio\utils\build\shim.js:131:29)
+    at async SalaryPage.moveToAvgProjectManagerSalary (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\pageobjects\/salary.page.js:42:13)
+    at async Context.<anonymous> (D:\personal\upwork\Zippia\zippia\Zippia-Selenium-Test-Project\test\specs\/salaryPage.test.js:50:9)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

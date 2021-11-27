@@ -1,0 +1,55 @@
+{
+  "name": "zippia-selenium-test-project",
+  "version": "1.0.0",
+  "description": "This is selenium test project for Zippia",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js",
+    "update": "npx npm-check-updates --upgrade && npm install && npm audit fix",
+    "report": "allure generate ./allure-results/ --clean && allure serve allure-results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshayBamne/Zippia-Selenium-Test-Project.git"
+  },
+  "author": "Akshay Bamne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project/issues"
+  },
+  "homepage": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/register": "^7.15.3",
+    "@wdio/allure-reporter": "^7.16.0",
+    "@wdio/junit-reporter": "^7.16.3",
+    "@wdio/local-runner": "^7.16.0",
+    "@wdio/mocha-framework": "^7.16.0",
+    "chai": "^4.3.4",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^94.0.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "grunt": "^1.4.1",
+    "grunt-cli": "^1.4.3",
+    "grunt-mocha": "^1.2.0",
+    "local-runner": "^0.1.1-alpha",
+    "ts-node": "^10.3.1",
+    "typescript": "^4.4.4",
+    "wdio-chromedriver-service": "^7.2.2",
+    "webdriverio": "^7.16.0"
+  },
+  "dependencies": {
+    "@types/mocha": "^9.0.0",
+    "@wdio/cli": "^7.16.0",
+    "allure-commandline": "^2.13.8",
+    "geckodriver": "^2.0.4",
+    "selenium-webdriver": "^4.1.0"
+  }
+}
